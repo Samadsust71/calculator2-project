@@ -1,0 +1,65 @@
+body{
+    background:linear-gradient(45deg, hsl(0, 0%, 0%),hsl(0, 0%, 4%));
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+   
+}
+#calculator{
+   background-color: rgb(248, 255, 255);
+   width: 360px;
+   height: 80vh;
+   font-family: Arial, Helvetica, sans-serif;
+   overflow: hidden;
+   border-radius: 16px;
+   box-shadow: 3px 3px 15px rgba(4, 132, 19,0.9);
+   
+   
+  
+}
+input{
+    width: 300px;
+    height: 10vh;
+    margin: 20px;
+    padding: 10px;
+    text-align: right;
+    border: none;
+    box-shadow: 3px 3px 15px rgba(12, 197, 34, 0.9);
+    color: hsl(120, 2%, 8%);
+    font-size: 2rem;
+    border-radius: 16px;
+
+}
+#btn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    background: white;
+    border: none;
+    box-shadow: 3px 3px 15px rgba(2, 39, 6, 0.9);
+    color: hsl(120, 2%, 8%);
+    cursor: pointer;
+}
+.operator{
+    color: rgb(8, 186, 82);
+}
+.eql_btn{
+    background-color:rgba(114, 250, 17, 0.901) ;
+}
+button:hover{
+    background-color:rgba(4, 132, 19,0.3) ;
+}
+button:active{
+    background-color:rgba(4, 132, 19,0.5) ;
+}
